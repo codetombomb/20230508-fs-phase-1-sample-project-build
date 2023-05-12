@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #808000;
+    --secondary-color: blue;
+    --debug: 1px solid red;
+}
+
+body {
+    background-color: var(--primary-color);
+    border: var(--debug);
+}
+
+#card-container {
+    outline: 1px solid yellow;
+}
